@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>BloemendaalConsultancyLib</RootNamespace>
+    <AssemblyName>BloemendaalConsultancyLib</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.10.3" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReferenceAanleveren\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReferenceOphalen\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReferenceStatusInformatie\" />
+  </ItemGroup>
+</Project>

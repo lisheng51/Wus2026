@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b23c35ad-0c69-47ab-abc5-21b38788a0cc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="C:\Users\dev01\Downloads\Telegram Desktop\bestanden\WUS 2.0 voor bedrijven v 1.2\Statusinformatie\Statusinformatieservice_Digipoort_WUS 2.0 Bedrijven_prod.wsdl" Protocol="file" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Statusinformatieservice_Digipoort_WUS 2.wsdl" MetadataType="Wsdl" ID="8a0adee1-7c15-418b-8bba-a9147b652895" SourceId="1" SourceUrl="file:///C:/Users/dev01/Downloads/Telegram Desktop/bestanden/WUS 2.0 voor bedrijven v 1.2/Statusinformatie/Statusinformatieservice_Digipoort_WUS 2.0 Bedrijven_prod.wsdl" />
+    <MetadataFile FileName="digipoort-koppelvlak-1.xsd" MetadataType="Schema" ID="3a425fd5-c42a-482b-b832-e8194436c680" SourceId="1" SourceUrl="file:///C:/Users/dev01/Downloads/Telegram Desktop/bestanden/WUS 2.0 voor bedrijven v 1.2/digipoort-koppelvlak-1.2.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
