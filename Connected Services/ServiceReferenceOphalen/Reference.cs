@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
+namespace Wus2026.ServiceReferenceOphalen {
     
     
     /// <remarks/>
@@ -494,85 +494,85 @@ namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService_V1_2/getBerich" +
             "tenRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getBerichtenRe" +
             "sponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(BloemendaalConsultancyLib.ServiceReferenceOphalen.foutType), Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getBerichten/F" +
+        [System.ServiceModel.FaultContractAttribute(typeof(Wus2026.ServiceReferenceOphalen.foutType), Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getBerichten/F" +
             "ault/", Name="ophaalFault", Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenResponse1 getBerichten(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenRequest1 request);
+        Wus2026.ServiceReferenceOphalen.getBerichtenResponse1 getBerichten(Wus2026.ServiceReferenceOphalen.getBerichtenRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService_V1_2/getBerich" +
             "tenRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getBerichtenRe" +
             "sponse")]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenResponse1> getBerichtenAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenRequest1 request);
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getBerichtenResponse1> getBerichtenAsync(Wus2026.ServiceReferenceOphalen.getBerichtenRequest1 request);
         
         // CODEGEN: Generating message contract since the operation getNieuweBerichten is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService_V1_2/getNieuwe" +
             "BerichtenRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getNieuweBeric" +
             "htenResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(BloemendaalConsultancyLib.ServiceReferenceOphalen.foutType), Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getNieuweBeric" +
+        [System.ServiceModel.FaultContractAttribute(typeof(Wus2026.ServiceReferenceOphalen.foutType), Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getNieuweBeric" +
             "hten/Fault/", Name="ophaalFault", Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenResponse1 getNieuweBerichten(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenRequest1 request);
+        Wus2026.ServiceReferenceOphalen.getNieuweBerichtenResponse1 getNieuweBerichten(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService_V1_2/getNieuwe" +
             "BerichtenRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getNieuweBeric" +
             "htenResponse")]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenResponse1> getNieuweBerichtenAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenRequest1 request);
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getNieuweBerichtenResponse1> getNieuweBerichtenAsync(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenRequest1 request);
         
         // CODEGEN: Generating message contract since the operation getBerichtenLijst is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService_V1_2/getBerich" +
             "tenLijstRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getBerichtenLi" +
             "jstResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(BloemendaalConsultancyLib.ServiceReferenceOphalen.foutType), Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getBerichtenLi" +
+        [System.ServiceModel.FaultContractAttribute(typeof(Wus2026.ServiceReferenceOphalen.foutType), Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getBerichtenLi" +
             "jst/Fault/", Name="ophaalFault", Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstResponse1 getBerichtenLijst(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstRequest1 request);
+        Wus2026.ServiceReferenceOphalen.getBerichtenLijstResponse1 getBerichtenLijst(Wus2026.ServiceReferenceOphalen.getBerichtenLijstRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService_V1_2/getBerich" +
             "tenLijstRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getBerichtenLi" +
             "jstResponse")]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstResponse1> getBerichtenLijstAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstRequest1 request);
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getBerichtenLijstResponse1> getBerichtenLijstAsync(Wus2026.ServiceReferenceOphalen.getBerichtenLijstRequest1 request);
         
         // CODEGEN: Generating message contract since the operation getNieuweBerichtenLijst is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService_V1_2/getNieuwe" +
             "BerichtenLijstRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getNieuweBeric" +
             "htenLijstResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(BloemendaalConsultancyLib.ServiceReferenceOphalen.foutType), Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getNieuweBeric" +
+        [System.ServiceModel.FaultContractAttribute(typeof(Wus2026.ServiceReferenceOphalen.foutType), Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getNieuweBeric" +
             "htenLijst/Fault/", Name="ophaalFault", Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse1 getNieuweBerichtenLijst(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1 request);
+        Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse1 getNieuweBerichtenLijst(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService_V1_2/getNieuwe" +
             "BerichtenLijstRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getNieuweBeric" +
             "htenLijstResponse")]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse1> getNieuweBerichtenLijstAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1 request);
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse1> getNieuweBerichtenLijstAsync(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1 request);
         
         // CODEGEN: Generating message contract since the operation getBerichtenKenmerk is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService_V1_2/getBerich" +
             "tenKenmerkRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getBerichtenKe" +
             "nmerkResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(BloemendaalConsultancyLib.ServiceReferenceOphalen.foutType), Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getBerichtenKe" +
+        [System.ServiceModel.FaultContractAttribute(typeof(Wus2026.ServiceReferenceOphalen.foutType), Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getBerichtenKe" +
             "nmerk/Fault/", Name="ophaalFault", Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkResponse1 getBerichtenKenmerk(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkRequest1 request);
+        Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkResponse1 getBerichtenKenmerk(Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService_V1_2/getBerich" +
             "tenKenmerkRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getBerichtenKe" +
             "nmerkResponse")]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkResponse1> getBerichtenKenmerkAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkRequest1 request);
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkResponse1> getBerichtenKenmerkAsync(Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkRequest1 request);
         
         // CODEGEN: Generating message contract since the operation getNieuweBerichtenKenmerk is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService_V1_2/getNieuwe" +
             "BerichtenKenmerkRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getNieuweBeric" +
             "htenKenmerkResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(BloemendaalConsultancyLib.ServiceReferenceOphalen.foutType), Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getNieuweBeric" +
+        [System.ServiceModel.FaultContractAttribute(typeof(Wus2026.ServiceReferenceOphalen.foutType), Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getNieuweBeric" +
             "htenKenmerk/Fault/", Name="ophaalFault", Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse1 getNieuweBerichtenKenmerk(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1 request);
+        Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse1 getNieuweBerichtenKenmerk(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService_V1_2/getNieuwe" +
             "BerichtenKenmerkRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/ophaalservice/1.2/OphaalService/getNieuweBeric" +
             "htenKenmerkResponse")]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse1> getNieuweBerichtenKenmerkAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1 request);
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse1> getNieuweBerichtenKenmerkAsync(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1 request);
     }
     
     /// <remarks/>
@@ -731,12 +731,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
     public partial class getBerichtenRequest1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenRequest getBerichtenRequest;
+        public Wus2026.ServiceReferenceOphalen.getBerichtenRequest getBerichtenRequest;
         
         public getBerichtenRequest1() {
         }
         
-        public getBerichtenRequest1(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenRequest getBerichtenRequest) {
+        public getBerichtenRequest1(Wus2026.ServiceReferenceOphalen.getBerichtenRequest getBerichtenRequest) {
             this.getBerichtenRequest = getBerichtenRequest;
         }
     }
@@ -748,12 +748,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
     public partial class getBerichtenResponse1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenResponse getBerichtenResponse;
+        public Wus2026.ServiceReferenceOphalen.getBerichtenResponse getBerichtenResponse;
         
         public getBerichtenResponse1() {
         }
         
-        public getBerichtenResponse1(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenResponse getBerichtenResponse) {
+        public getBerichtenResponse1(Wus2026.ServiceReferenceOphalen.getBerichtenResponse getBerichtenResponse) {
             this.getBerichtenResponse = getBerichtenResponse;
         }
     }
@@ -914,12 +914,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
     public partial class getNieuweBerichtenRequest1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenRequest getNieuweBerichtenRequest;
+        public Wus2026.ServiceReferenceOphalen.getNieuweBerichtenRequest getNieuweBerichtenRequest;
         
         public getNieuweBerichtenRequest1() {
         }
         
-        public getNieuweBerichtenRequest1(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenRequest getNieuweBerichtenRequest) {
+        public getNieuweBerichtenRequest1(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenRequest getNieuweBerichtenRequest) {
             this.getNieuweBerichtenRequest = getNieuweBerichtenRequest;
         }
     }
@@ -931,12 +931,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
     public partial class getNieuweBerichtenResponse1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenResponse getNieuweBerichtenResponse;
+        public Wus2026.ServiceReferenceOphalen.getNieuweBerichtenResponse getNieuweBerichtenResponse;
         
         public getNieuweBerichtenResponse1() {
         }
         
-        public getNieuweBerichtenResponse1(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenResponse getNieuweBerichtenResponse) {
+        public getNieuweBerichtenResponse1(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenResponse getNieuweBerichtenResponse) {
             this.getNieuweBerichtenResponse = getNieuweBerichtenResponse;
         }
     }
@@ -1143,12 +1143,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
     public partial class getBerichtenLijstRequest1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstRequest getBerichtenLijstRequest;
+        public Wus2026.ServiceReferenceOphalen.getBerichtenLijstRequest getBerichtenLijstRequest;
         
         public getBerichtenLijstRequest1() {
         }
         
-        public getBerichtenLijstRequest1(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstRequest getBerichtenLijstRequest) {
+        public getBerichtenLijstRequest1(Wus2026.ServiceReferenceOphalen.getBerichtenLijstRequest getBerichtenLijstRequest) {
             this.getBerichtenLijstRequest = getBerichtenLijstRequest;
         }
     }
@@ -1160,12 +1160,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
     public partial class getBerichtenLijstResponse1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstResponse getBerichtenLijstResponse;
+        public Wus2026.ServiceReferenceOphalen.getBerichtenLijstResponse getBerichtenLijstResponse;
         
         public getBerichtenLijstResponse1() {
         }
         
-        public getBerichtenLijstResponse1(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstResponse getBerichtenLijstResponse) {
+        public getBerichtenLijstResponse1(Wus2026.ServiceReferenceOphalen.getBerichtenLijstResponse getBerichtenLijstResponse) {
             this.getBerichtenLijstResponse = getBerichtenLijstResponse;
         }
     }
@@ -1312,12 +1312,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
     public partial class getNieuweBerichtenLijstRequest1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest getNieuweBerichtenLijstRequest;
+        public Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest getNieuweBerichtenLijstRequest;
         
         public getNieuweBerichtenLijstRequest1() {
         }
         
-        public getNieuweBerichtenLijstRequest1(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest getNieuweBerichtenLijstRequest) {
+        public getNieuweBerichtenLijstRequest1(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest getNieuweBerichtenLijstRequest) {
             this.getNieuweBerichtenLijstRequest = getNieuweBerichtenLijstRequest;
         }
     }
@@ -1329,12 +1329,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
     public partial class getNieuweBerichtenLijstResponse1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse getNieuweBerichtenLijstResponse;
+        public Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse getNieuweBerichtenLijstResponse;
         
         public getNieuweBerichtenLijstResponse1() {
         }
         
-        public getNieuweBerichtenLijstResponse1(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse getNieuweBerichtenLijstResponse) {
+        public getNieuweBerichtenLijstResponse1(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse getNieuweBerichtenLijstResponse) {
             this.getNieuweBerichtenLijstResponse = getNieuweBerichtenLijstResponse;
         }
     }
@@ -1481,12 +1481,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
     public partial class getBerichtenKenmerkRequest1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkRequest getBerichtenKenmerkRequest;
+        public Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkRequest getBerichtenKenmerkRequest;
         
         public getBerichtenKenmerkRequest1() {
         }
         
-        public getBerichtenKenmerkRequest1(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkRequest getBerichtenKenmerkRequest) {
+        public getBerichtenKenmerkRequest1(Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkRequest getBerichtenKenmerkRequest) {
             this.getBerichtenKenmerkRequest = getBerichtenKenmerkRequest;
         }
     }
@@ -1498,12 +1498,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
     public partial class getBerichtenKenmerkResponse1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkResponse getBerichtenKenmerkResponse;
+        public Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkResponse getBerichtenKenmerkResponse;
         
         public getBerichtenKenmerkResponse1() {
         }
         
-        public getBerichtenKenmerkResponse1(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkResponse getBerichtenKenmerkResponse) {
+        public getBerichtenKenmerkResponse1(Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkResponse getBerichtenKenmerkResponse) {
             this.getBerichtenKenmerkResponse = getBerichtenKenmerkResponse;
         }
     }
@@ -1650,12 +1650,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
     public partial class getNieuweBerichtenKenmerkRequest1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest getNieuweBerichtenKenmerkRequest;
+        public Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest getNieuweBerichtenKenmerkRequest;
         
         public getNieuweBerichtenKenmerkRequest1() {
         }
         
-        public getNieuweBerichtenKenmerkRequest1(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest getNieuweBerichtenKenmerkRequest) {
+        public getNieuweBerichtenKenmerkRequest1(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest getNieuweBerichtenKenmerkRequest) {
             this.getNieuweBerichtenKenmerkRequest = getNieuweBerichtenKenmerkRequest;
         }
     }
@@ -1667,23 +1667,23 @@ namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
     public partial class getNieuweBerichtenKenmerkResponse1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse getNieuweBerichtenKenmerkResponse;
+        public Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse getNieuweBerichtenKenmerkResponse;
         
         public getNieuweBerichtenKenmerkResponse1() {
         }
         
-        public getNieuweBerichtenKenmerkResponse1(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse getNieuweBerichtenKenmerkResponse) {
+        public getNieuweBerichtenKenmerkResponse1(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse getNieuweBerichtenKenmerkResponse) {
             this.getNieuweBerichtenKenmerkResponse = getNieuweBerichtenKenmerkResponse;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface OphaalService_V1_2Channel : BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2, System.ServiceModel.IClientChannel {
+    public interface OphaalService_V1_2Channel : Wus2026.ServiceReferenceOphalen.OphaalService_V1_2, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class OphaalService_V1_2Client : System.ServiceModel.ClientBase<BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2>, BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2 {
+    public partial class OphaalService_V1_2Client : System.ServiceModel.ClientBase<Wus2026.ServiceReferenceOphalen.OphaalService_V1_2>, Wus2026.ServiceReferenceOphalen.OphaalService_V1_2 {
         
         public OphaalService_V1_2Client() {
         }
@@ -1705,141 +1705,141 @@ namespace BloemendaalConsultancyLib.ServiceReferenceOphalen {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenResponse1 BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2.getBerichten(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenRequest1 request) {
+        Wus2026.ServiceReferenceOphalen.getBerichtenResponse1 Wus2026.ServiceReferenceOphalen.OphaalService_V1_2.getBerichten(Wus2026.ServiceReferenceOphalen.getBerichtenRequest1 request) {
             return base.Channel.getBerichten(request);
         }
         
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenResponse getBerichten(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenRequest getBerichtenRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenRequest1();
+        public Wus2026.ServiceReferenceOphalen.getBerichtenResponse getBerichten(Wus2026.ServiceReferenceOphalen.getBerichtenRequest getBerichtenRequest) {
+            Wus2026.ServiceReferenceOphalen.getBerichtenRequest1 inValue = new Wus2026.ServiceReferenceOphalen.getBerichtenRequest1();
             inValue.getBerichtenRequest = getBerichtenRequest;
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenResponse1 retVal = ((BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getBerichten(inValue);
+            Wus2026.ServiceReferenceOphalen.getBerichtenResponse1 retVal = ((Wus2026.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getBerichten(inValue);
             return retVal.getBerichtenResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenResponse1> BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2.getBerichtenAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenRequest1 request) {
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getBerichtenResponse1> Wus2026.ServiceReferenceOphalen.OphaalService_V1_2.getBerichtenAsync(Wus2026.ServiceReferenceOphalen.getBerichtenRequest1 request) {
             return base.Channel.getBerichtenAsync(request);
         }
         
-        public System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenResponse1> getBerichtenAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenRequest getBerichtenRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenRequest1();
+        public System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getBerichtenResponse1> getBerichtenAsync(Wus2026.ServiceReferenceOphalen.getBerichtenRequest getBerichtenRequest) {
+            Wus2026.ServiceReferenceOphalen.getBerichtenRequest1 inValue = new Wus2026.ServiceReferenceOphalen.getBerichtenRequest1();
             inValue.getBerichtenRequest = getBerichtenRequest;
-            return ((BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getBerichtenAsync(inValue);
+            return ((Wus2026.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getBerichtenAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenResponse1 BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2.getNieuweBerichten(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenRequest1 request) {
+        Wus2026.ServiceReferenceOphalen.getNieuweBerichtenResponse1 Wus2026.ServiceReferenceOphalen.OphaalService_V1_2.getNieuweBerichten(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenRequest1 request) {
             return base.Channel.getNieuweBerichten(request);
         }
         
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenResponse getNieuweBerichten(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenRequest getNieuweBerichtenRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenRequest1();
+        public Wus2026.ServiceReferenceOphalen.getNieuweBerichtenResponse getNieuweBerichten(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenRequest getNieuweBerichtenRequest) {
+            Wus2026.ServiceReferenceOphalen.getNieuweBerichtenRequest1 inValue = new Wus2026.ServiceReferenceOphalen.getNieuweBerichtenRequest1();
             inValue.getNieuweBerichtenRequest = getNieuweBerichtenRequest;
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenResponse1 retVal = ((BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getNieuweBerichten(inValue);
+            Wus2026.ServiceReferenceOphalen.getNieuweBerichtenResponse1 retVal = ((Wus2026.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getNieuweBerichten(inValue);
             return retVal.getNieuweBerichtenResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenResponse1> BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2.getNieuweBerichtenAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenRequest1 request) {
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getNieuweBerichtenResponse1> Wus2026.ServiceReferenceOphalen.OphaalService_V1_2.getNieuweBerichtenAsync(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenRequest1 request) {
             return base.Channel.getNieuweBerichtenAsync(request);
         }
         
-        public System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenResponse1> getNieuweBerichtenAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenRequest getNieuweBerichtenRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenRequest1();
+        public System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getNieuweBerichtenResponse1> getNieuweBerichtenAsync(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenRequest getNieuweBerichtenRequest) {
+            Wus2026.ServiceReferenceOphalen.getNieuweBerichtenRequest1 inValue = new Wus2026.ServiceReferenceOphalen.getNieuweBerichtenRequest1();
             inValue.getNieuweBerichtenRequest = getNieuweBerichtenRequest;
-            return ((BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getNieuweBerichtenAsync(inValue);
+            return ((Wus2026.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getNieuweBerichtenAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstResponse1 BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2.getBerichtenLijst(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstRequest1 request) {
+        Wus2026.ServiceReferenceOphalen.getBerichtenLijstResponse1 Wus2026.ServiceReferenceOphalen.OphaalService_V1_2.getBerichtenLijst(Wus2026.ServiceReferenceOphalen.getBerichtenLijstRequest1 request) {
             return base.Channel.getBerichtenLijst(request);
         }
         
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstResponse getBerichtenLijst(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstRequest getBerichtenLijstRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstRequest1();
+        public Wus2026.ServiceReferenceOphalen.getBerichtenLijstResponse getBerichtenLijst(Wus2026.ServiceReferenceOphalen.getBerichtenLijstRequest getBerichtenLijstRequest) {
+            Wus2026.ServiceReferenceOphalen.getBerichtenLijstRequest1 inValue = new Wus2026.ServiceReferenceOphalen.getBerichtenLijstRequest1();
             inValue.getBerichtenLijstRequest = getBerichtenLijstRequest;
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstResponse1 retVal = ((BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getBerichtenLijst(inValue);
+            Wus2026.ServiceReferenceOphalen.getBerichtenLijstResponse1 retVal = ((Wus2026.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getBerichtenLijst(inValue);
             return retVal.getBerichtenLijstResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstResponse1> BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2.getBerichtenLijstAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstRequest1 request) {
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getBerichtenLijstResponse1> Wus2026.ServiceReferenceOphalen.OphaalService_V1_2.getBerichtenLijstAsync(Wus2026.ServiceReferenceOphalen.getBerichtenLijstRequest1 request) {
             return base.Channel.getBerichtenLijstAsync(request);
         }
         
-        public System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstResponse1> getBerichtenLijstAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstRequest getBerichtenLijstRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenLijstRequest1();
+        public System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getBerichtenLijstResponse1> getBerichtenLijstAsync(Wus2026.ServiceReferenceOphalen.getBerichtenLijstRequest getBerichtenLijstRequest) {
+            Wus2026.ServiceReferenceOphalen.getBerichtenLijstRequest1 inValue = new Wus2026.ServiceReferenceOphalen.getBerichtenLijstRequest1();
             inValue.getBerichtenLijstRequest = getBerichtenLijstRequest;
-            return ((BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getBerichtenLijstAsync(inValue);
+            return ((Wus2026.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getBerichtenLijstAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse1 BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2.getNieuweBerichtenLijst(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1 request) {
+        Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse1 Wus2026.ServiceReferenceOphalen.OphaalService_V1_2.getNieuweBerichtenLijst(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1 request) {
             return base.Channel.getNieuweBerichtenLijst(request);
         }
         
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse getNieuweBerichtenLijst(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest getNieuweBerichtenLijstRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1();
+        public Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse getNieuweBerichtenLijst(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest getNieuweBerichtenLijstRequest) {
+            Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1 inValue = new Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1();
             inValue.getNieuweBerichtenLijstRequest = getNieuweBerichtenLijstRequest;
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse1 retVal = ((BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getNieuweBerichtenLijst(inValue);
+            Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse1 retVal = ((Wus2026.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getNieuweBerichtenLijst(inValue);
             return retVal.getNieuweBerichtenLijstResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse1> BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2.getNieuweBerichtenLijstAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1 request) {
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse1> Wus2026.ServiceReferenceOphalen.OphaalService_V1_2.getNieuweBerichtenLijstAsync(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1 request) {
             return base.Channel.getNieuweBerichtenLijstAsync(request);
         }
         
-        public System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse1> getNieuweBerichtenLijstAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest getNieuweBerichtenLijstRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1();
+        public System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstResponse1> getNieuweBerichtenLijstAsync(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest getNieuweBerichtenLijstRequest) {
+            Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1 inValue = new Wus2026.ServiceReferenceOphalen.getNieuweBerichtenLijstRequest1();
             inValue.getNieuweBerichtenLijstRequest = getNieuweBerichtenLijstRequest;
-            return ((BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getNieuweBerichtenLijstAsync(inValue);
+            return ((Wus2026.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getNieuweBerichtenLijstAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkResponse1 BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2.getBerichtenKenmerk(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkRequest1 request) {
+        Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkResponse1 Wus2026.ServiceReferenceOphalen.OphaalService_V1_2.getBerichtenKenmerk(Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkRequest1 request) {
             return base.Channel.getBerichtenKenmerk(request);
         }
         
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkResponse getBerichtenKenmerk(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkRequest getBerichtenKenmerkRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkRequest1();
+        public Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkResponse getBerichtenKenmerk(Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkRequest getBerichtenKenmerkRequest) {
+            Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkRequest1 inValue = new Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkRequest1();
             inValue.getBerichtenKenmerkRequest = getBerichtenKenmerkRequest;
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkResponse1 retVal = ((BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getBerichtenKenmerk(inValue);
+            Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkResponse1 retVal = ((Wus2026.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getBerichtenKenmerk(inValue);
             return retVal.getBerichtenKenmerkResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkResponse1> BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2.getBerichtenKenmerkAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkRequest1 request) {
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkResponse1> Wus2026.ServiceReferenceOphalen.OphaalService_V1_2.getBerichtenKenmerkAsync(Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkRequest1 request) {
             return base.Channel.getBerichtenKenmerkAsync(request);
         }
         
-        public System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkResponse1> getBerichtenKenmerkAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkRequest getBerichtenKenmerkRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceOphalen.getBerichtenKenmerkRequest1();
+        public System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkResponse1> getBerichtenKenmerkAsync(Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkRequest getBerichtenKenmerkRequest) {
+            Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkRequest1 inValue = new Wus2026.ServiceReferenceOphalen.getBerichtenKenmerkRequest1();
             inValue.getBerichtenKenmerkRequest = getBerichtenKenmerkRequest;
-            return ((BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getBerichtenKenmerkAsync(inValue);
+            return ((Wus2026.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getBerichtenKenmerkAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse1 BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2.getNieuweBerichtenKenmerk(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1 request) {
+        Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse1 Wus2026.ServiceReferenceOphalen.OphaalService_V1_2.getNieuweBerichtenKenmerk(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1 request) {
             return base.Channel.getNieuweBerichtenKenmerk(request);
         }
         
-        public BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse getNieuweBerichtenKenmerk(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest getNieuweBerichtenKenmerkRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1();
+        public Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse getNieuweBerichtenKenmerk(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest getNieuweBerichtenKenmerkRequest) {
+            Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1 inValue = new Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1();
             inValue.getNieuweBerichtenKenmerkRequest = getNieuweBerichtenKenmerkRequest;
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse1 retVal = ((BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getNieuweBerichtenKenmerk(inValue);
+            Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse1 retVal = ((Wus2026.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getNieuweBerichtenKenmerk(inValue);
             return retVal.getNieuweBerichtenKenmerkResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse1> BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2.getNieuweBerichtenKenmerkAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1 request) {
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse1> Wus2026.ServiceReferenceOphalen.OphaalService_V1_2.getNieuweBerichtenKenmerkAsync(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1 request) {
             return base.Channel.getNieuweBerichtenKenmerkAsync(request);
         }
         
-        public System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse1> getNieuweBerichtenKenmerkAsync(BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest getNieuweBerichtenKenmerkRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1();
+        public System.Threading.Tasks.Task<Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkResponse1> getNieuweBerichtenKenmerkAsync(Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest getNieuweBerichtenKenmerkRequest) {
+            Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1 inValue = new Wus2026.ServiceReferenceOphalen.getNieuweBerichtenKenmerkRequest1();
             inValue.getNieuweBerichtenKenmerkRequest = getNieuweBerichtenKenmerkRequest;
-            return ((BloemendaalConsultancyLib.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getNieuweBerichtenKenmerkAsync(inValue);
+            return ((Wus2026.ServiceReferenceOphalen.OphaalService_V1_2)(this)).getNieuweBerichtenKenmerkAsync(inValue);
         }
     }
 }

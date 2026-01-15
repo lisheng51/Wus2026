@@ -1,4 +1,4 @@
-﻿namespace BloemendaalConsultancyLib
+﻿namespace Wus2026
 {
     public class Aangifte
     {  

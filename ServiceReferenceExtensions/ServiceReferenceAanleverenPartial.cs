@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace BloemendaalConsultancyLib.ServiceReferenceAanleveren
+namespace Wus2026.ServiceReferenceAanleveren
 {
     public partial class aanleverenRequest
     {

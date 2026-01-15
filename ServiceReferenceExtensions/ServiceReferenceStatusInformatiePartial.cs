@@ -1,4 +1,4 @@
-﻿namespace BloemendaalConsultancyLib.ServiceReferenceStatusInformatie
+﻿namespace Wus2026.ServiceReferenceStatusInformatie
 {
 	public partial class getStatussenProcesRequest1
 	{

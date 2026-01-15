@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
-using BloemendaalConsultancyLib.ServiceReferenceAanleveren;
-using BloemendaalConsultancyLib.ServiceReferenceOphalen;
-using BloemendaalConsultancyLib.ServiceReferenceStatusInformatie;
+using Wus2026.ServiceReferenceAanleveren;
+using Wus2026.ServiceReferenceOphalen;
+using Wus2026.ServiceReferenceStatusInformatie;
 
-namespace BloemendaalConsultancyLib.WusChannel
+namespace Wus2026.WusChannel
 {
 	public class WusClient
 	{

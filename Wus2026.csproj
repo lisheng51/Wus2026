@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>BloemendaalConsultancyLib</RootNamespace>
-    <AssemblyName>BloemendaalConsultancyLib</AssemblyName>
+    <RootNamespace>Wus2026</RootNamespace>
+    <AssemblyName>Wus2026</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Deterministic>true</Deterministic>
   </PropertyGroup>

@@ -1,6 +1,6 @@
-using BloemendaalConsultancyLib.ServiceReferenceAanleveren;
-using BloemendaalConsultancyLib.ServiceReferenceOphalen;
-using BloemendaalConsultancyLib.ServiceReferenceStatusInformatie;
+using Wus2026.ServiceReferenceAanleveren;
+using Wus2026.ServiceReferenceOphalen;
+using Wus2026.ServiceReferenceStatusInformatie;
 using System;
 using System.Globalization;
 using System.IO;
@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace BloemendaalConsultancyLib.WusChannel
+namespace Wus2026.WusChannel
 {
     internal sealed class WusSoapClient
     {

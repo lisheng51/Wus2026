@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BloemendaalConsultancyLib.ServiceReferenceAanleveren {
+namespace Wus2026.ServiceReferenceAanleveren {
     
     
     /// <remarks/>
@@ -171,15 +171,15 @@ namespace BloemendaalConsultancyLib.ServiceReferenceAanleveren {
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/aanleverservice/1.2/AanleverService_V1_2/aanle" +
             "verenRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/aanleverservice/1.2/AanleverService/aanleveren" +
             "Response")]
-        [System.ServiceModel.FaultContractAttribute(typeof(BloemendaalConsultancyLib.ServiceReferenceAanleveren.foutType), Action="http://logius.nl/digipoort/wus/2.0/aanleverservice/1.2/AanleverService/aanleveren" +
+        [System.ServiceModel.FaultContractAttribute(typeof(Wus2026.ServiceReferenceAanleveren.foutType), Action="http://logius.nl/digipoort/wus/2.0/aanleverservice/1.2/AanleverService/aanleveren" +
             "/Fault/", Name="aanleverFault", Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverenResponse aanleveren(BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverenRequest request);
+        Wus2026.ServiceReferenceAanleveren.aanleverenResponse aanleveren(Wus2026.ServiceReferenceAanleveren.aanleverenRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/aanleverservice/1.2/AanleverService_V1_2/aanle" +
             "verenRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/aanleverservice/1.2/AanleverService/aanleveren" +
             "Response")]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverenResponse> aanleverenAsync(BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverenRequest request);
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceAanleveren.aanleverenResponse> aanleverenAsync(Wus2026.ServiceReferenceAanleveren.aanleverenRequest request);
     }
     
     /// <remarks/>
@@ -604,12 +604,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceAanleveren {
     public partial class aanleverenRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverRequest aanleverRequest;
+        public Wus2026.ServiceReferenceAanleveren.aanleverRequest aanleverRequest;
         
         public aanleverenRequest() {
         }
         
-        public aanleverenRequest(BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverRequest aanleverRequest) {
+        public aanleverenRequest(Wus2026.ServiceReferenceAanleveren.aanleverRequest aanleverRequest) {
             this.aanleverRequest = aanleverRequest;
         }
     }
@@ -621,23 +621,23 @@ namespace BloemendaalConsultancyLib.ServiceReferenceAanleveren {
     public partial class aanleverenResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverResponse aanleverResponse;
+        public Wus2026.ServiceReferenceAanleveren.aanleverResponse aanleverResponse;
         
         public aanleverenResponse() {
         }
         
-        public aanleverenResponse(BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverResponse aanleverResponse) {
+        public aanleverenResponse(Wus2026.ServiceReferenceAanleveren.aanleverResponse aanleverResponse) {
             this.aanleverResponse = aanleverResponse;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface AanleverService_V1_2Channel : BloemendaalConsultancyLib.ServiceReferenceAanleveren.AanleverService_V1_2, System.ServiceModel.IClientChannel {
+    public interface AanleverService_V1_2Channel : Wus2026.ServiceReferenceAanleveren.AanleverService_V1_2, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class AanleverService_V1_2Client : System.ServiceModel.ClientBase<BloemendaalConsultancyLib.ServiceReferenceAanleveren.AanleverService_V1_2>, BloemendaalConsultancyLib.ServiceReferenceAanleveren.AanleverService_V1_2 {
+    public partial class AanleverService_V1_2Client : System.ServiceModel.ClientBase<Wus2026.ServiceReferenceAanleveren.AanleverService_V1_2>, Wus2026.ServiceReferenceAanleveren.AanleverService_V1_2 {
         
         public AanleverService_V1_2Client() {
         }
@@ -659,26 +659,26 @@ namespace BloemendaalConsultancyLib.ServiceReferenceAanleveren {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverenResponse BloemendaalConsultancyLib.ServiceReferenceAanleveren.AanleverService_V1_2.aanleveren(BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverenRequest request) {
+        Wus2026.ServiceReferenceAanleveren.aanleverenResponse Wus2026.ServiceReferenceAanleveren.AanleverService_V1_2.aanleveren(Wus2026.ServiceReferenceAanleveren.aanleverenRequest request) {
             return base.Channel.aanleveren(request);
         }
         
-        public BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverResponse aanleveren(BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverRequest aanleverRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverenRequest inValue = new BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverenRequest();
+        public Wus2026.ServiceReferenceAanleveren.aanleverResponse aanleveren(Wus2026.ServiceReferenceAanleveren.aanleverRequest aanleverRequest) {
+            Wus2026.ServiceReferenceAanleveren.aanleverenRequest inValue = new Wus2026.ServiceReferenceAanleveren.aanleverenRequest();
             inValue.aanleverRequest = aanleverRequest;
-            BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverenResponse retVal = ((BloemendaalConsultancyLib.ServiceReferenceAanleveren.AanleverService_V1_2)(this)).aanleveren(inValue);
+            Wus2026.ServiceReferenceAanleveren.aanleverenResponse retVal = ((Wus2026.ServiceReferenceAanleveren.AanleverService_V1_2)(this)).aanleveren(inValue);
             return retVal.aanleverResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverenResponse> BloemendaalConsultancyLib.ServiceReferenceAanleveren.AanleverService_V1_2.aanleverenAsync(BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverenRequest request) {
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceAanleveren.aanleverenResponse> Wus2026.ServiceReferenceAanleveren.AanleverService_V1_2.aanleverenAsync(Wus2026.ServiceReferenceAanleveren.aanleverenRequest request) {
             return base.Channel.aanleverenAsync(request);
         }
         
-        public System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverenResponse> aanleverenAsync(BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverRequest aanleverRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverenRequest inValue = new BloemendaalConsultancyLib.ServiceReferenceAanleveren.aanleverenRequest();
+        public System.Threading.Tasks.Task<Wus2026.ServiceReferenceAanleveren.aanleverenResponse> aanleverenAsync(Wus2026.ServiceReferenceAanleveren.aanleverRequest aanleverRequest) {
+            Wus2026.ServiceReferenceAanleveren.aanleverenRequest inValue = new Wus2026.ServiceReferenceAanleveren.aanleverenRequest();
             inValue.aanleverRequest = aanleverRequest;
-            return ((BloemendaalConsultancyLib.ServiceReferenceAanleveren.AanleverService_V1_2)(this)).aanleverenAsync(inValue);
+            return ((Wus2026.ServiceReferenceAanleveren.AanleverService_V1_2)(this)).aanleverenAsync(inValue);
         }
     }
 }

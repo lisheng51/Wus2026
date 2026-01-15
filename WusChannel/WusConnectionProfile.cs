@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 
-namespace BloemendaalConsultancyLib.WusChannel
+namespace Wus2026.WusChannel
 {
 	public class WusConnectionProfile
 	{

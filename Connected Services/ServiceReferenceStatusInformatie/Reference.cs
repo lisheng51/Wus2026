@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BloemendaalConsultancyLib.ServiceReferenceStatusInformatie {
+namespace Wus2026.ServiceReferenceStatusInformatie {
     
     
     /// <remarks/>
@@ -111,71 +111,71 @@ namespace BloemendaalConsultancyLib.ServiceReferenceStatusInformatie {
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice_V1_2/getBerichtsoortenRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getBerichtsoortenResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.foutType), Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
+        [System.ServiceModel.FaultContractAttribute(typeof(Wus2026.ServiceReferenceStatusInformatie.foutType), Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getBerichtsoorten/Fault/", Name="statusinformatieFault", Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenResponse1 getBerichtsoorten(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1 request);
+        Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenResponse1 getBerichtsoorten(Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice_V1_2/getBerichtsoortenRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getBerichtsoortenResponse")]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenResponse1> getBerichtsoortenAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1 request);
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenResponse1> getBerichtsoortenAsync(Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1 request);
         
         // CODEGEN: Generating message contract since the operation getProcessen is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice_V1_2/getProcessenRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getProcessenResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.foutType), Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
+        [System.ServiceModel.FaultContractAttribute(typeof(Wus2026.ServiceReferenceStatusInformatie.foutType), Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getProcessen/Fault/", Name="statusinformatieFault", Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenResponse1 getProcessen(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenRequest1 request);
+        Wus2026.ServiceReferenceStatusInformatie.getProcessenResponse1 getProcessen(Wus2026.ServiceReferenceStatusInformatie.getProcessenRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice_V1_2/getProcessenRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getProcessenResponse")]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenResponse1> getProcessenAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenRequest1 request);
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getProcessenResponse1> getProcessenAsync(Wus2026.ServiceReferenceStatusInformatie.getProcessenRequest1 request);
         
         // CODEGEN: Generating message contract since the operation getStatussenProces is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice_V1_2/getStatussenProcesRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getStatussenProcesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.foutType), Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
+        [System.ServiceModel.FaultContractAttribute(typeof(Wus2026.ServiceReferenceStatusInformatie.foutType), Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getStatussenProces/Fault/", Name="statusinformatieFault", Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesResponse1 getStatussenProces(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesRequest1 request);
+        Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesResponse1 getStatussenProces(Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice_V1_2/getStatussenProcesRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getStatussenProcesResponse")]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesResponse1> getStatussenProcesAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesRequest1 request);
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesResponse1> getStatussenProcesAsync(Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesRequest1 request);
         
         // CODEGEN: Generating message contract since the operation getNieuweStatussenProces is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice_V1_2/getNieuweStatussenProcesRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getNieuweStatussenProcesResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.foutType), Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
+        [System.ServiceModel.FaultContractAttribute(typeof(Wus2026.ServiceReferenceStatusInformatie.foutType), Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getNieuweStatussenProces/Fault/", Name="statusinformatieFault", Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse1 getNieuweStatussenProces(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1 request);
+        Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse1 getNieuweStatussenProces(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice_V1_2/getNieuweStatussenProcesRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getNieuweStatussenProcesResponse")]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse1> getNieuweStatussenProcesAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1 request);
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse1> getNieuweStatussenProcesAsync(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1 request);
         
         // CODEGEN: Generating message contract since the operation getNieuweStatussen is neither RPC nor document wrapped.
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice_V1_2/getNieuweStatussenRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getNieuweStatussenResponse")]
-        [System.ServiceModel.FaultContractAttribute(typeof(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.foutType), Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
+        [System.ServiceModel.FaultContractAttribute(typeof(Wus2026.ServiceReferenceStatusInformatie.foutType), Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getNieuweStatussen/Fault/", Name="statusinformatieFault", Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenResponse1 getNieuweStatussen(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1 request);
+        Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenResponse1 getNieuweStatussen(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice_V1_2/getNieuweStatussenRequest", ReplyAction="http://logius.nl/digipoort/wus/2.0/statusinformatieservice/1.2/StatusinformatieSe" +
             "rvice/getNieuweStatussenResponse")]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenResponse1> getNieuweStatussenAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1 request);
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenResponse1> getNieuweStatussenAsync(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1 request);
     }
     
     /// <remarks/>
@@ -264,12 +264,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceStatusInformatie {
     public partial class getBerichtsoortenRequest1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenRequest getBerichtsoortenRequest;
+        public Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenRequest getBerichtsoortenRequest;
         
         public getBerichtsoortenRequest1() {
         }
         
-        public getBerichtsoortenRequest1(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenRequest getBerichtsoortenRequest) {
+        public getBerichtsoortenRequest1(Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenRequest getBerichtsoortenRequest) {
             this.getBerichtsoortenRequest = getBerichtsoortenRequest;
         }
     }
@@ -281,12 +281,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceStatusInformatie {
     public partial class getBerichtsoortenResponse1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenResponse getBerichtsoortenResponse;
+        public Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenResponse getBerichtsoortenResponse;
         
         public getBerichtsoortenResponse1() {
         }
         
-        public getBerichtsoortenResponse1(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenResponse getBerichtsoortenResponse) {
+        public getBerichtsoortenResponse1(Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenResponse getBerichtsoortenResponse) {
             this.getBerichtsoortenResponse = getBerichtsoortenResponse;
         }
     }
@@ -465,12 +465,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceStatusInformatie {
     public partial class getProcessenRequest1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenRequest getProcessenRequest;
+        public Wus2026.ServiceReferenceStatusInformatie.getProcessenRequest getProcessenRequest;
         
         public getProcessenRequest1() {
         }
         
-        public getProcessenRequest1(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenRequest getProcessenRequest) {
+        public getProcessenRequest1(Wus2026.ServiceReferenceStatusInformatie.getProcessenRequest getProcessenRequest) {
             this.getProcessenRequest = getProcessenRequest;
         }
     }
@@ -482,12 +482,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceStatusInformatie {
     public partial class getProcessenResponse1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenResponse getProcessenResponse;
+        public Wus2026.ServiceReferenceStatusInformatie.getProcessenResponse getProcessenResponse;
         
         public getProcessenResponse1() {
         }
         
-        public getProcessenResponse1(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenResponse getProcessenResponse) {
+        public getProcessenResponse1(Wus2026.ServiceReferenceStatusInformatie.getProcessenResponse getProcessenResponse) {
             this.getProcessenResponse = getProcessenResponse;
         }
     }
@@ -750,12 +750,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceStatusInformatie {
     public partial class getStatussenProcesRequest1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesRequest getStatussenProcesRequest;
+        public Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesRequest getStatussenProcesRequest;
         
         public getStatussenProcesRequest1() {
         }
         
-        public getStatussenProcesRequest1(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesRequest getStatussenProcesRequest) {
+        public getStatussenProcesRequest1(Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesRequest getStatussenProcesRequest) {
             this.getStatussenProcesRequest = getStatussenProcesRequest;
         }
     }
@@ -767,12 +767,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceStatusInformatie {
     public partial class getStatussenProcesResponse1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesResponse getStatussenProcesResponse;
+        public Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesResponse getStatussenProcesResponse;
         
         public getStatussenProcesResponse1() {
         }
         
-        public getStatussenProcesResponse1(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesResponse getStatussenProcesResponse) {
+        public getStatussenProcesResponse1(Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesResponse getStatussenProcesResponse) {
             this.getStatussenProcesResponse = getStatussenProcesResponse;
         }
     }
@@ -919,12 +919,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceStatusInformatie {
     public partial class getNieuweStatussenProcesRequest1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest getNieuweStatussenProcesRequest;
+        public Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest getNieuweStatussenProcesRequest;
         
         public getNieuweStatussenProcesRequest1() {
         }
         
-        public getNieuweStatussenProcesRequest1(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest getNieuweStatussenProcesRequest) {
+        public getNieuweStatussenProcesRequest1(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest getNieuweStatussenProcesRequest) {
             this.getNieuweStatussenProcesRequest = getNieuweStatussenProcesRequest;
         }
     }
@@ -936,12 +936,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceStatusInformatie {
     public partial class getNieuweStatussenProcesResponse1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse getNieuweStatussenProcesResponse;
+        public Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse getNieuweStatussenProcesResponse;
         
         public getNieuweStatussenProcesResponse1() {
         }
         
-        public getNieuweStatussenProcesResponse1(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse getNieuweStatussenProcesResponse) {
+        public getNieuweStatussenProcesResponse1(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse getNieuweStatussenProcesResponse) {
             this.getNieuweStatussenProcesResponse = getNieuweStatussenProcesResponse;
         }
     }
@@ -1102,12 +1102,12 @@ namespace BloemendaalConsultancyLib.ServiceReferenceStatusInformatie {
     public partial class getNieuweStatussenRequest1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenRequest getNieuweStatussenRequest;
+        public Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenRequest getNieuweStatussenRequest;
         
         public getNieuweStatussenRequest1() {
         }
         
-        public getNieuweStatussenRequest1(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenRequest getNieuweStatussenRequest) {
+        public getNieuweStatussenRequest1(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenRequest getNieuweStatussenRequest) {
             this.getNieuweStatussenRequest = getNieuweStatussenRequest;
         }
     }
@@ -1119,23 +1119,23 @@ namespace BloemendaalConsultancyLib.ServiceReferenceStatusInformatie {
     public partial class getNieuweStatussenResponse1 {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://logius.nl/digipoort/koppelvlakservices/1.2/", Order=0)]
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenResponse getNieuweStatussenResponse;
+        public Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenResponse getNieuweStatussenResponse;
         
         public getNieuweStatussenResponse1() {
         }
         
-        public getNieuweStatussenResponse1(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenResponse getNieuweStatussenResponse) {
+        public getNieuweStatussenResponse1(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenResponse getNieuweStatussenResponse) {
             this.getNieuweStatussenResponse = getNieuweStatussenResponse;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface StatusinformatieService_V1_2Channel : BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2, System.ServiceModel.IClientChannel {
+    public interface StatusinformatieService_V1_2Channel : Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class StatusinformatieService_V1_2Client : System.ServiceModel.ClientBase<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2>, BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2 {
+    public partial class StatusinformatieService_V1_2Client : System.ServiceModel.ClientBase<Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2>, Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2 {
         
         public StatusinformatieService_V1_2Client() {
         }
@@ -1157,118 +1157,118 @@ namespace BloemendaalConsultancyLib.ServiceReferenceStatusInformatie {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenResponse1 BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getBerichtsoorten(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1 request) {
+        Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenResponse1 Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getBerichtsoorten(Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1 request) {
             return base.Channel.getBerichtsoorten(request);
         }
         
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenResponse getBerichtsoorten(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenRequest getBerichtsoortenRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1();
+        public Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenResponse getBerichtsoorten(Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenRequest getBerichtsoortenRequest) {
+            Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1 inValue = new Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1();
             inValue.getBerichtsoortenRequest = getBerichtsoortenRequest;
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenResponse1 retVal = ((BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getBerichtsoorten(inValue);
+            Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenResponse1 retVal = ((Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getBerichtsoorten(inValue);
             return retVal.getBerichtsoortenResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenResponse1> BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getBerichtsoortenAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1 request) {
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenResponse1> Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getBerichtsoortenAsync(Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1 request) {
             return base.Channel.getBerichtsoortenAsync(request);
         }
         
-        public System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenResponse1> getBerichtsoortenAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenRequest getBerichtsoortenRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1();
+        public System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenResponse1> getBerichtsoortenAsync(Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenRequest getBerichtsoortenRequest) {
+            Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1 inValue = new Wus2026.ServiceReferenceStatusInformatie.getBerichtsoortenRequest1();
             inValue.getBerichtsoortenRequest = getBerichtsoortenRequest;
-            return ((BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getBerichtsoortenAsync(inValue);
+            return ((Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getBerichtsoortenAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenResponse1 BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getProcessen(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenRequest1 request) {
+        Wus2026.ServiceReferenceStatusInformatie.getProcessenResponse1 Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getProcessen(Wus2026.ServiceReferenceStatusInformatie.getProcessenRequest1 request) {
             return base.Channel.getProcessen(request);
         }
         
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenResponse getProcessen(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenRequest getProcessenRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenRequest1();
+        public Wus2026.ServiceReferenceStatusInformatie.getProcessenResponse getProcessen(Wus2026.ServiceReferenceStatusInformatie.getProcessenRequest getProcessenRequest) {
+            Wus2026.ServiceReferenceStatusInformatie.getProcessenRequest1 inValue = new Wus2026.ServiceReferenceStatusInformatie.getProcessenRequest1();
             inValue.getProcessenRequest = getProcessenRequest;
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenResponse1 retVal = ((BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getProcessen(inValue);
+            Wus2026.ServiceReferenceStatusInformatie.getProcessenResponse1 retVal = ((Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getProcessen(inValue);
             return retVal.getProcessenResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenResponse1> BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getProcessenAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenRequest1 request) {
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getProcessenResponse1> Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getProcessenAsync(Wus2026.ServiceReferenceStatusInformatie.getProcessenRequest1 request) {
             return base.Channel.getProcessenAsync(request);
         }
         
-        public System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenResponse1> getProcessenAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenRequest getProcessenRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getProcessenRequest1();
+        public System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getProcessenResponse1> getProcessenAsync(Wus2026.ServiceReferenceStatusInformatie.getProcessenRequest getProcessenRequest) {
+            Wus2026.ServiceReferenceStatusInformatie.getProcessenRequest1 inValue = new Wus2026.ServiceReferenceStatusInformatie.getProcessenRequest1();
             inValue.getProcessenRequest = getProcessenRequest;
-            return ((BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getProcessenAsync(inValue);
+            return ((Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getProcessenAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesResponse1 BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getStatussenProces(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesRequest1 request) {
+        Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesResponse1 Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getStatussenProces(Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesRequest1 request) {
             return base.Channel.getStatussenProces(request);
         }
         
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesResponse getStatussenProces(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesRequest getStatussenProcesRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesRequest1();
+        public Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesResponse getStatussenProces(Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesRequest getStatussenProcesRequest) {
+            Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesRequest1 inValue = new Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesRequest1();
             inValue.getStatussenProcesRequest = getStatussenProcesRequest;
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesResponse1 retVal = ((BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getStatussenProces(inValue);
+            Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesResponse1 retVal = ((Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getStatussenProces(inValue);
             return retVal.getStatussenProcesResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesResponse1> BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getStatussenProcesAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesRequest1 request) {
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesResponse1> Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getStatussenProcesAsync(Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesRequest1 request) {
             return base.Channel.getStatussenProcesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesResponse1> getStatussenProcesAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesRequest getStatussenProcesRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getStatussenProcesRequest1();
+        public System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesResponse1> getStatussenProcesAsync(Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesRequest getStatussenProcesRequest) {
+            Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesRequest1 inValue = new Wus2026.ServiceReferenceStatusInformatie.getStatussenProcesRequest1();
             inValue.getStatussenProcesRequest = getStatussenProcesRequest;
-            return ((BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getStatussenProcesAsync(inValue);
+            return ((Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getStatussenProcesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse1 BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getNieuweStatussenProces(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1 request) {
+        Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse1 Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getNieuweStatussenProces(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1 request) {
             return base.Channel.getNieuweStatussenProces(request);
         }
         
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse getNieuweStatussenProces(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest getNieuweStatussenProcesRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1();
+        public Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse getNieuweStatussenProces(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest getNieuweStatussenProcesRequest) {
+            Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1 inValue = new Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1();
             inValue.getNieuweStatussenProcesRequest = getNieuweStatussenProcesRequest;
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse1 retVal = ((BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getNieuweStatussenProces(inValue);
+            Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse1 retVal = ((Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getNieuweStatussenProces(inValue);
             return retVal.getNieuweStatussenProcesResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse1> BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getNieuweStatussenProcesAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1 request) {
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse1> Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getNieuweStatussenProcesAsync(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1 request) {
             return base.Channel.getNieuweStatussenProcesAsync(request);
         }
         
-        public System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse1> getNieuweStatussenProcesAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest getNieuweStatussenProcesRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1();
+        public System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesResponse1> getNieuweStatussenProcesAsync(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest getNieuweStatussenProcesRequest) {
+            Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1 inValue = new Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenProcesRequest1();
             inValue.getNieuweStatussenProcesRequest = getNieuweStatussenProcesRequest;
-            return ((BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getNieuweStatussenProcesAsync(inValue);
+            return ((Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getNieuweStatussenProcesAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenResponse1 BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getNieuweStatussen(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1 request) {
+        Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenResponse1 Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getNieuweStatussen(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1 request) {
             return base.Channel.getNieuweStatussen(request);
         }
         
-        public BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenResponse getNieuweStatussen(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenRequest getNieuweStatussenRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1();
+        public Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenResponse getNieuweStatussen(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenRequest getNieuweStatussenRequest) {
+            Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1 inValue = new Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1();
             inValue.getNieuweStatussenRequest = getNieuweStatussenRequest;
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenResponse1 retVal = ((BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getNieuweStatussen(inValue);
+            Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenResponse1 retVal = ((Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getNieuweStatussen(inValue);
             return retVal.getNieuweStatussenResponse;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenResponse1> BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getNieuweStatussenAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1 request) {
+        System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenResponse1> Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2.getNieuweStatussenAsync(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1 request) {
             return base.Channel.getNieuweStatussenAsync(request);
         }
         
-        public System.Threading.Tasks.Task<BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenResponse1> getNieuweStatussenAsync(BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenRequest getNieuweStatussenRequest) {
-            BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1 inValue = new BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1();
+        public System.Threading.Tasks.Task<Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenResponse1> getNieuweStatussenAsync(Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenRequest getNieuweStatussenRequest) {
+            Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1 inValue = new Wus2026.ServiceReferenceStatusInformatie.getNieuweStatussenRequest1();
             inValue.getNieuweStatussenRequest = getNieuweStatussenRequest;
-            return ((BloemendaalConsultancyLib.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getNieuweStatussenAsync(inValue);
+            return ((Wus2026.ServiceReferenceStatusInformatie.StatusinformatieService_V1_2)(this)).getNieuweStatussenAsync(inValue);
         }
     }
 }

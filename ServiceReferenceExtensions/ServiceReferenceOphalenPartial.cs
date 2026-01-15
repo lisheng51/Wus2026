@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BloemendaalConsultancyLib.ServiceReferenceOphalen
+namespace Wus2026.ServiceReferenceOphalen
 {
 	partial class getBerichtenLijstRequest1
 	{
