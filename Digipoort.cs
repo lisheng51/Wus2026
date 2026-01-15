@@ -4,7 +4,6 @@ using System.IO;
 using System.Net;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
-using Wus2026.WusChannel;
 
 namespace Wus2026
 {
@@ -15,38 +14,30 @@ namespace Wus2026
         public static string AuspServiceUrl => "http://geenausp.nl";
         public static string BerichtInhoudMimeType => "application/xml";
 
-        public static WusClient Client(X509Certificate2 clientCertificate, X509Certificate2 serverCertificate)
+        public static WusSoapClient Client(X509Certificate2 clientCertificate, X509Certificate2 serverCertificate, bool usingValidateServerCertificate = true)
         {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-            WusConnectionProfile profile = new()
-            {
-                ServerCertificate = serverCertificate,
-                EndpointAanleverService = EndpointAanleverServiceUrl,
-                EndpointStatusInformatieService = EndpointStatusInformatieServiceUrl,
-                AuspService = AuspServiceUrl,
-            };
-
-            WusClient wusClientNew = new(profile, clientCertificate);
+            WusSoapClient wusClientNew = new(clientCertificate, serverCertificate, usingValidateServerCertificate);
             return wusClientNew;
         }
 
-        public static getStatussenProcesResponse1 StatusInformatie(WusClient wusClient, string kenmerk)
+        public static getStatussenProcesResponse1 StatusInformatie(WusSoapClient wusClient, string kenmerk)
         {
             getStatussenProcesRequest getStatussenProcesRequest = new()
             {
                 kenmerk = kenmerk,
-                autorisatieAdres = wusClient.Profile.AuspService
+                autorisatieAdres = AuspServiceUrl
             };
 
             getStatussenProcesRequest1 requestBody = new()
             {
                 getStatussenProcesRequest = getStatussenProcesRequest
             };
-            getStatussenProcesResponse1 statusResponse = wusClient.StatusInformatie(requestBody);
+            getStatussenProcesResponse1 statusResponse = wusClient.GetStatussenProces(EndpointStatusInformatieServiceUrl, requestBody);
             return statusResponse;
         }
 
-        public static aanleverenResponse Aanleveren(WusClient wusClient, Aangifte aangifte)
+        public static aanleverenResponse Aanleveren(WusSoapClient wusClient, Aangifte aangifte)
         {
             berichtInhoudType berichtInhoud = new()
             {
@@ -69,7 +60,7 @@ namespace Wus2026
                 identiteitBelanghebbende = identity,
                 rolBelanghebbende = aangifte.rolBelanghebbende,
                 berichtInhoud = berichtInhoud,
-                autorisatieAdres = wusClient.Profile.AuspService
+                autorisatieAdres = AuspServiceUrl
             };
 
             aanleverenRequest aanleverRequestBody = new()
@@ -77,7 +68,7 @@ namespace Wus2026
                 aanleverRequest = aanleverRequest
             };
 
-            aanleverenResponse aanleverResponse = wusClient.Aanleveren(aanleverRequestBody);
+            aanleverenResponse aanleverResponse = wusClient.Aanleveren(EndpointAanleverServiceUrl, aanleverRequestBody);
             return aanleverResponse;
         }
     }
