@@ -16,3 +16,8 @@
                 };
                 aanleverenResponse aanleverResponse = Digipoort.Aanleveren(wusClient, bestand);
                 getStatussenProcesResponse1 statusResponse = Digipoort.StatusInformatie(wusClient, kenmerk);
+
+
+
+
+                https://www.logius.nl/domeinen/gegevensuitwisseling/digipoort/wat-is-het/koppelvlakken/wus-voor-bedrijven

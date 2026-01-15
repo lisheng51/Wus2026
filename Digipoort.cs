@@ -1,9 +1,9 @@
-﻿using System.IO;
+﻿using ServiceReferenceAanleveren;
+using ServiceReferenceStatusInformatie;
+using System.IO;
 using System.Net;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
-using Wus2026.ServiceReferenceAanleveren;
-using Wus2026.ServiceReferenceStatusInformatie;
 using Wus2026.WusChannel;
 
 namespace Wus2026
@@ -32,7 +32,17 @@ namespace Wus2026
 
         public static getStatussenProcesResponse1 StatusInformatie(WusClient wusClient, string kenmerk)
         {
-            getStatussenProcesResponse1 statusResponse = wusClient.StatusInformatie(kenmerk);
+            getStatussenProcesRequest getStatussenProcesRequest = new()
+            {
+                kenmerk = kenmerk,
+                autorisatieAdres = wusClient.Profile.AuspService
+            };
+
+            getStatussenProcesRequest1 requestBody = new()
+            {
+                getStatussenProcesRequest = getStatussenProcesRequest
+            };
+            getStatussenProcesResponse1 statusResponse = wusClient.StatusInformatie(requestBody);
             return statusResponse;
         }
 
@@ -44,9 +54,30 @@ namespace Wus2026
                 bestandsnaam = aangifte.bestandsnaam,
                 inhoud = string.IsNullOrEmpty(aangifte.fileLocation) == false ? File.ReadAllBytes(aangifte.fileLocation) : Encoding.UTF8.GetBytes(aangifte.inhoud)
             };
-            ServiceReferenceAanleveren.identiteitType identity = new(aangifte.identiteit_nummer, aangifte.identiteit_type);
-            aanleverenRequest aanleverRequest = new(aangifte.aanleverkenmerk, aangifte.berichtsoort, identity, aangifte.rolBelanghebbende, berichtInhoud, wusClient.Profile.AuspService);
-            aanleverenResponse aanleverResponse = wusClient.Aanleveren(aanleverRequest);
+
+            ServiceReferenceAanleveren.identiteitType identity = new()
+            {
+                nummer = aangifte.identiteit_nummer,
+                type = aangifte.identiteit_type
+            };
+
+
+            aanleverRequest aanleverRequest = new()
+            {
+                aanleverkenmerk = aangifte.aanleverkenmerk,
+                berichtsoort = aangifte.berichtsoort,
+                identiteitBelanghebbende = identity,
+                rolBelanghebbende = aangifte.rolBelanghebbende,
+                berichtInhoud = berichtInhoud,
+                autorisatieAdres = wusClient.Profile.AuspService
+            };
+
+            aanleverenRequest aanleverRequestBody = new()
+            {
+                aanleverRequest = aanleverRequest
+            };
+
+            aanleverenResponse aanleverResponse = wusClient.Aanleveren(aanleverRequestBody);
             return aanleverResponse;
         }
     }

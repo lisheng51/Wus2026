@@ -1,6 +1,3 @@
-using Wus2026.ServiceReferenceAanleveren;
-using Wus2026.ServiceReferenceOphalen;
-using Wus2026.ServiceReferenceStatusInformatie;
 using System;
 using System.Globalization;
 using System.IO;
@@ -12,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
+using ServiceReferenceAanleveren;
+using ServiceReferenceStatusInformatie;
 
 namespace Wus2026.WusChannel
 {
@@ -71,31 +70,6 @@ namespace Wus2026.WusChannel
         {
             return Task.FromResult(Aanleveren(endpoint, request));
         }
-
-        public getBerichtenLijstResponse1 GetBerichtenLijst(string endpoint, getBerichtenLijstRequest1 request)
-        {
-            var response = Send<getBerichtenLijstRequest, getBerichtenLijstResponse>(
-                endpoint,
-                Actions.GetBerichtenLijstRequest,
-                request.getBerichtenLijstRequest,
-                "getBerichtenLijstRequest",
-                "getBerichtenLijstResponse");
-
-            return new getBerichtenLijstResponse1(response);
-        }
-
-        public getBerichtenKenmerkResponse1 GetBerichtenKenmerk(string endpoint, getBerichtenKenmerkRequest1 request)
-        {
-            var response = Send<getBerichtenKenmerkRequest, getBerichtenKenmerkResponse>(
-                endpoint,
-                Actions.GetBerichtenKenmerkRequest,
-                request.getBerichtenKenmerkRequest,
-                "getBerichtenKenmerkRequest",
-                "getBerichtenKenmerkResponse");
-
-            return new getBerichtenKenmerkResponse1(response);
-        }
-
         public getStatussenProcesResponse1 GetStatussenProces(string endpoint, getStatussenProcesRequest1 request)
         {
             var response = Send<getStatussenProcesRequest, getStatussenProcesResponse>(
